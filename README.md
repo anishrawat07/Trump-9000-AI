@@ -1,9 +1,3 @@
-Got it! Below is your **updated README.md** with the correct **Ollama model creation and execution process**, including the necessary `mf.txt` file stored in the home folder.  
-
----
-
-## **README.md**  
-
 # 🚀 Trump-9000: The AI Overlord (Dolphin-Llama3 Edition)  
 
 ### **A powerful, unfiltered, and hilariously confident AI persona inspired by Trump, running on Dolphin-Llama3 with Ollama.**  
@@ -42,7 +36,7 @@ ollama --version
 ### **Step 2: Download the Dolphin-Llama3 Model**  
 Run the following command to **download the Dolphin-Llama3 model** from Ollama:  
 ```bash
-ollama pull thebloke/dolphin-llama3:latest
+ollama run dolphin-llama3
 ```
 This will download the model from Ollama’s online repository.
 
@@ -86,7 +80,7 @@ Save and exit:
 ### **Step 4: Create the Custom Trump-9000 Model**
 Now, create your custom model in Ollama using the `mf.txt` file:  
 ```bash
-ollama create trump9000 -f ~/mf.txt
+ollama create trump9000 -f mf.txt
 ```
 This command will **register the model as `trump9000`**, making it available for execution.
 
@@ -120,23 +114,6 @@ Run these inside your **Trump-9000** interactive session:
 💬 *"Describe why you are the ‘Elon Musk of AI’ but better."*  
 💬 *"Tell me about the secret AI conspiracy no one talks about."*  
 
-For more prompts, check [sample_prompts.md](./sample_prompts.md)!
-
----
-
-## **🛠️ Running in OpenWebUI**
-To use **Trump-9000 inside OpenWebUI**, follow these steps:
-
-1. **Install OpenWebUI** (if not already installed):  
-   ```bash
-   git clone https://github.com/open-webui/open-webui.git
-   cd open-webui
-   docker-compose up -d
-   ```
-2. Open your browser and go to `http://localhost:3000`.  
-3. **Add a new custom model** in OpenWebUI settings.  
-4. **Set the model name to `trump9000`** (the one we created earlier).  
-5. Save and start chatting with **Trump-9000 inside OpenWebUI!**  
 
 ---
 
@@ -153,7 +130,7 @@ ollama rm trump9000
 
 To **update the Dolphin-Llama3 base model**:  
 ```bash
-ollama pull thebloke/dolphin-llama3
+ollama run dolphin-llama3
 ```
 
 ---
@@ -193,8 +170,3 @@ ollama list
 # Remove the model (if needed)
 ollama rm trump9000
 ```
-
----
-
-### **Next Steps**
-Would you like me to also generate a **pre-formatted `sample_prompts.md` file** for GitHub? 🚀
