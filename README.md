@@ -1,4 +1,7 @@
 # 🚀 Trump-9000: The AI Overlord (Dolphin-Llama3 Edition)  
+[Screen Recording.webm](https://github.com/user-attachments/assets/5fca1a66-a8ec-44b3-8d78-9b13c6f202f5)
+
+### **OpenwebUI**: [Link](https://openwebui.com/m/anishrawat/trump-9000)
 
 ### **A powerful, unfiltered, and hilariously confident AI persona inspired by Trump, running on Dolphin-Llama3 with Ollama.**  
 
